@@ -1,0 +1,108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#header-principal
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    z-index: 1;
+}
+footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+#logo
+{
+    color: white;
+    padding-left: 100px;
+}
+.botoes
+{
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 40;
+    position: fixed;
+    right: 500px;
+    top: 1px;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+
+}
+.botoes:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+#contato-btn
+{
+    position: fixed;
+    right: 400px;
+}
+#sobre_btn
+{
+    position: fixed;
+    right: 320px;
+}
+#rodape-txt
+{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-family: helvetica;
+    font-size: 18px;
+}
+#forma
+{
+    width: 70px;
+    height: 30px;
+    background-color: #f9a825;
+    position: fixed;
+    right: 496px;
+    top: 6px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.botoes2
+{
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 40;
+    position: fixed;
+    right: 500px;
+    top: 1px;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+}
+input
+{
+    width: 250px;
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    right: 680px;
+    top: 50%;
+}
+#texto
+{
+    padding: 50px;
+    width: 230px;
+    height: 130px;
+    position: fixed;
+    top: 40%;
+    left: 600px;
+    border-right: 2px dotted black;
+}

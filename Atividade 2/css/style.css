@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header
+{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, #2196f3, #3d5afe);
+}
+h1
+{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: Verdana;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: Verdana;
+    color: white;
+    font-size: 16px;
+}
+#Cep
+{
+    font-family: Verdana;
+    position: fixed;
+    top: 360px;
+    left: 800px;
+}
+#Rua
+{
+    font-family: Verdana;
+    position: fixed;
+    top: 429px;
+    left: 800px;
+}
+#Bairro
+{
+    font-family: Verdana;
+    position: fixed;
+    top: 496px;
+    left: 800px;
+}
+#Cidade
+{
+    font-family: Verdana;
+    position: fixed;
+    top: 563px;
+    left: 800px;
+}
+#Estado
+{
+    font-family: Verdana;
+    position: fixed;
+    top: 630px;
+    left: 800px;
+}
+#bolinha
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    z-index: 3;
+    position: fixed;
+    right: 48%;
+    top: 150px;
+}
+img
+{
+    position: fixed;
+    top: 172px;
+    right: 948px;
+    z-index: 4;
+}
+.botao
+{
+    width: 300px;
+    padding: 6px;
+    border: 1px solid black;
+    position: fixed;
+    border-radius: 2px;
+    z-index: 5;
+}
+#Cep_botao
+{
+    top: 39%;
+    left: 800px;
+}
+#Rua_botao
+{
+    top: 46%;
+    left: 800px;
+}
+#Bairro_botao
+{
+    top: 53%;
+    left: 800px;
+}
+#Cidade_botao
+{
+    top: 60%;
+    left: 800px;
+}
+#Estado_botao
+{
+    top: 67%;
+    left: 800px;
+}
+#Buscar_botao
+{
+    width: 315px;
+    height: 45px;
+    padding: 6px;
+    border-bottom: 4px solid #3d5afe;
+    position: fixed;
+    border-radius: 6px;
+    z-index: 5;
+    top: 73%;
+    left: 800px;
+    background-color: #2196f3;
+    color: white;
+    font-family: Verdana;
+    font-size: 16px;
+}
+#Buscar_botao:hover
+{
+    cursor: pointer;
+}
